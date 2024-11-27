@@ -1,5 +1,4 @@
-<html>
-<head>
+<body>
     <title>Our First Page</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Doto">
     <style>
@@ -72,23 +71,4 @@
             }
         }
     </script>
-</head>
-<body>
-<div class="container">
-    <div id="hello_image">
-        <img src="https://cdn.culture.ru/images/e045ffbb-48c2-5b84-afed-1d28972f7d46" class="pulse" width="50%" height="auto">
-    </div>
-    <div id="hello_world">
-        <div class="centered">
-            <h1 class="zoom-text" onclick="playAudio('https://rus.hitmotop.com/get/cuts/37/fc/37fcdcfd67c30544be16a21d16f3d8cd/47839811/Village_People_-_YMCA_b128f0d286.mp3')">Hello, World!</h1>
-        </div>
-    </div>
-</div>
-<p id="demo"></p>
-<script>
-    document.getElementById("hello_image").addEventListener("click", function() {
-        document.getElementById("demo").innerHTML = "HELLO WORLD!";
-    });
-</script>
 </body>
-</html>
